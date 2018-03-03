@@ -1,0 +1,11 @@
+.carousel,.item,.active{
+    height:100%;
+  }
+ .carousel-inner{
+     height:100%;
+ }
+ .carousel {
+     border-top: 5px solid rgb(40, 40, 40);
+     border-bottom: 5px solid rgb(40, 40, 40);
+ }
+ 

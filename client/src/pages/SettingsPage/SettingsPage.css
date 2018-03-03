@@ -1,0 +1,35 @@
+.addSpace {
+  margin-top: 0;
+  padding: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff; }
+
+#renderedPage {
+  max-width: 75%;
+  margin-left: 5px; }
+  #renderedPage h3 {
+    text-align: center; }
+
+#orchestradeNav {
+  margin-left: -15px; }
+  #orchestradeNav a {
+    color: #fff; }
+  #orchestradeNav a:hover {
+    color: #000;
+    text-decoration: none; }
+
+.leadText {
+  font-size: 22px; }
+
+@media (max-width: 768px) {
+  #orchestradeNav {
+    display: none; }
+
+  #renderedPage {
+    margin: auto; } }
+@media (min-width: 768px) {
+  #mobile {
+    display: none; } }
+
+/*# sourceMappingURL=settingsPage.css.map */

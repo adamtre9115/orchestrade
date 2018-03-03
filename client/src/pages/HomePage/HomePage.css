@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+#root {
+  background: #f4f4f4; }
+
+.jumbotron {
+  background-image: url("../../image/saxophone.jpeg");
+  background-position: center;
+  height: 60vh;
+  color: #fff;
+  margin-bottom: -15px !important; }
+
+.Tilt {
+  transform-style: preserve-3d; }
+
+.orgName {
+  color: #fff;
+  transform: translateZ(20px); }
+  .orgName h1 {
+    font-size: 50px; }
+  .orgName .lead {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px; }
+
+.part2 {
+  margin-top: 20px;
+  background-color: #0f0a07; }
+
+/*# sourceMappingURL=HomePage.css.map */

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+#mainNav {
+  background-color: #0f0a07; }
+  #mainNav .navbar-light, #mainNav .navbar-nav, #mainNav .nav-link, #mainNav .navbar-brand {
+    color: #fff; }
+  #mainNav .dropdown {
+    color: #0f0a07 !important; }
+  #mainNav .navbar-light, #mainNav .navbar-toggler {
+    border-color: #fff; }
+
+.addSpace {
+  margin-top: 0;
+  padding: 0px;
+  background-color: #fff; }
+
+.jumbotron {
+  background-image: url("./image/piano.jpg");
+  background-position: center;
+  height: 60vh;
+  color: #fff;
+  border-radius: 0 !important; }
+
+.Tilt {
+  transform-style: preserve-3d; }
+
+.orgName {
+  color: #fff;
+  transform: translateZ(20px); }
+  .orgName h1 {
+    font-size: 50px; }
+  .orgName .lead {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px; }
+
+.quote {
+  margin-top: -32px;
+  background-color: #0f0a07;
+  color: #fff;
+  height: auto; }
+
+#carouselSection {
+  background-color: #0f0a07; }
+  #carouselSection #theCarousel {
+    max-width: 80%;
+    margin: auto;
+    padding: 15px; }
+
+.part2 {
+  margin-top: 20px;
+  background-color: #0f0a07; }
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,78 @@
+// import
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+$deep-black: #0f0a07;
+$white-text: #fff;
+$pearl-color: #d1c4cb;
+$paper-color: #f4f4f4;
+$gold-color: #c0b283;
+
+// Navbar Main
+#mainNav {
+  background-color: $deep-black;
+  
+  .navbar-light, .navbar-nav, .nav-link, .navbar-brand {
+    color: $white-text;
+  }
+  
+  .dropdown {
+    color: $deep-black !important;
+  }
+
+  .navbar-light, .navbar-toggler {
+    border-color: $white-text;
+  }
+}
+.addSpace {
+  margin-top: 0;
+  padding: 0px;
+  // padding-left: 15px;
+  // padding-right: 15px;
+  background-color: #fff;
+}
+
+.jumbotron {
+  background-image: url("./image/piano.jpg");
+  background-position: center;
+  height: 60vh;
+  color: $white-text;
+  border-radius: 0 !important;
+}
+
+.Tilt {
+  transform-style: preserve-3d;
+}
+.orgName {
+  color: $white-text;
+  transform: translateZ(20px);
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .lead {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+  }
+}
+
+.quote {
+  margin-top: -32px;
+  background-color: $deep-black;
+  color: $white-text;
+  height: auto;
+}
+
+#carouselSection {
+  background-color: $deep-black;
+
+  #theCarousel {
+    max-width: 80%;
+    margin: auto;
+    padding: 15px;
+  }
+}
+
+.part2 {
+  margin-top: 20px;
+  background-color: $deep-black;
+}

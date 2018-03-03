@@ -1,0 +1,40 @@
+// import
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+$deep-black: #0f0a07;
+$white-text: #fff;
+$pearl-color: #d1c4cb;
+$paper-color: #f4f4f4;
+$gold-color: #c0b283;
+#root {
+  background: $paper-color;
+}
+
+.jumbotron {
+  background-image: url("../../image/saxophoneMed.jpg");
+  // background-position: center;
+  height: 60vh;
+  color: $white-text;
+  margin-bottom: -15px !important;
+}
+
+.Tilt {
+  transform-style: preserve-3d;
+}
+.orgName {
+  color: $white-text;
+  transform: translateZ(20px);
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .lead {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+  }
+}
+
+.part2 {
+  margin-top: 20px;
+  background-color: $deep-black;
+}

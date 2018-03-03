@@ -1,0 +1,10 @@
+.card {
+    width: 90%;
+    margin: 2% auto;
+} 
+
+img.card-img:hover {
+    opacity: 0.5;
+    /* uncomment for cursor to become pointer */
+    /*cursor: pointer*/
+}

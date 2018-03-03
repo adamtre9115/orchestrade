@@ -1,0 +1,50 @@
+.addSpace {
+    margin-top: 0;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+}
+
+#renderedPage {
+    max-width: 75%;
+    margin-left: 5px;
+
+    h3 {
+        text-align: center;
+    }
+}
+
+#orchestradeNav {
+    margin-left: -15px;
+    // max-width: 250px;
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+.leadText {
+    font-size: 22px;
+}
+
+@media (max-width: 768px){
+    #orchestradeNav {
+        display: none;
+    }
+
+    #renderedPage {
+        margin:  auto;
+    }
+}
+
+@media (min-width: 768px){
+    #mobile {
+        display: none;
+    }
+}
