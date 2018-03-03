@@ -6,7 +6,7 @@ const Footer = props => {
   return (
      <div className="ifooter py-3 sticky-bottom"> {/*className={ styles.ifooter }*/}
       <footer>
-        &copy; Orchestrade 2018
+        &copy;2018 Orchestrade
       </footer>
     </div>
   );
